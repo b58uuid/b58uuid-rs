@@ -1,5 +1,11 @@
 # B58UUID for Rust
 
+[![Crates.io](https://img.shields.io/crates/v/b58uuid.svg)](https://crates.io/crates/b58uuid)
+[![Documentation](https://docs.rs/b58uuid/badge.svg)](https://docs.rs/b58uuid)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://github.com/b58uuid/b58uuid-rs/workflows/Tests/badge.svg)](https://github.com/b58uuid/b58uuid-rs/actions)
+[![Downloads](https://img.shields.io/crates/d/b58uuid.svg)](https://crates.io/crates/b58uuid)
+
 Base58-encoded UUID library for Rust with minimal dependencies.
 
 ## Why This Library?
