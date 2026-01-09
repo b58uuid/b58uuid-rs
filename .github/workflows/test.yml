@@ -2,7 +2,8 @@ name: Tests
 
 on:
   push:
-    branches: [ main ]
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'  # Matches tags like 1.0.0, 1.2.3, etc. (no 'v' prefix for Rust)
   pull_request:
     branches: [ main ]
 
